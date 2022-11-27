@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
+
 import com.example.baitapcanhan.baitap1.BaiTap1MainActivity;
 import com.example.baitapcanhan.adapters.BaiTapListViewAdapter;
 import com.example.baitapcanhan.baitap2.BaiTap2MainActivity;
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     List<BaiTap> listBaiTap;
     BaiTapListViewAdapter baitapListViewAdapter;
     ListView listViewBaiTap;
+    TextView titleBaiTap;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -33,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         listBaiTap = new ArrayList<>();
         baitapListViewAdapter = new BaiTapListViewAdapter(listBaiTap);
+
+
 
         for (int i = 1; i <=5 ; i++) {
             listBaiTap.add(new BaiTap("Bài tập " + i));
