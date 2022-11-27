@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnDialCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="action dial call"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnViewContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aciton view contact"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnSendTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aciton sendto"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="20dp"/>
+
+
+
+</LinearLayout>

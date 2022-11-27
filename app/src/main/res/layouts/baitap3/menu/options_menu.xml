@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fileMenu"
+        android:title="File">
+        <!-- "file" submenu -->
+        <menu>
+            <item android:title="New" />
+            <item android:title="Save" />
+            <item android:title="Load" />
+            <item android:title="Exit" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/editMenu"
+        android:title="Edit" />
+    <item
+        android:id="@+id/viewMenu"
+        android:title="View" />
+    <item
+        android:id="@+id/toolMenu"
+        android:title="Tool" />
+</menu>
